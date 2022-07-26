@@ -135,7 +135,7 @@ FS.main = {
 			var Y = URLparams.get("Y");
 			var Z = URLparams.get("Z");
 		}
-		if (X != null && Y != null & Z != null){
+		if (X != null && Y != null && Z != null){
 			FS.main.vue = new ol.View({ // création de la vue, par défaut en Mercator
 				center: [parseFloat(X), parseFloat(Y)],
 				zoom: Z, // niveau de zoom
